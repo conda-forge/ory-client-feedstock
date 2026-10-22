@@ -1,5 +1,5 @@
 {% set name = "ory-client" %}
-{% set version = "1.22.85" %}
+{% set version = "1.22.86" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 372d826e91f99174f70d6249bae01d3dbef256d9588bb25cd2e98f7b32621199
+  sha256: f5efa54ce4f839aa04fc6d91adc62b08820dbc59e5eff8d8b1b7df45da1d927a
 
 build:
   noarch: python
